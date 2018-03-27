@@ -1,0 +1,38 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "basic template for typescript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start --single-run",
+    "tslint": "node_modules/tslint/bin/tslint --project ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseMejia/typescript-template.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Jose Mejia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseMejia/typescript-template/issues"
+  },
+  "homepage": "https://github.com/JoseMejia/typescript-template#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/lodash": "^4.14.106",
+    "@types/node": "^9.6.0",
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-typescript": "^3.0.12",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
